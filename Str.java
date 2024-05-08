@@ -3,7 +3,13 @@ public class Str {
         String name ="Boni";
         int age =22;
         double height =1.88;
-        System.out.printf("Name: %s, Age : %d, Height :%.2f",name,age,height);
+        char gender ='M';
+        boolean isStudent =true;
+  System.out.println("Name: "+ name);
+  System.out.println("Age: "+ age);
+  System.out.println("Height: "+ height);
+  System.out.println("gender: "+ gender);
+  System.out.println("IsStudent: "+isStudent);
     }
 }
     
