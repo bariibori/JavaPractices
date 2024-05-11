@@ -7,7 +7,7 @@ public class LeapYear {
             System.out.println("LEAP YEAR");
         }
         else{
-            System.err.println("COMMON YEAR");
+            System.out.println("COMMON YEAR");
         }
     }
 }
