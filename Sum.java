@@ -4,9 +4,9 @@ public class Sum {
       Scanner sc = new Scanner(System.in);
         System.out.print("Enter Frist Number: ");
         double x= sc.nextDouble();
-        System.out.println("Enter Second Number: ");
+        System.out.print("Enter Second Number: ");
         double y=sc.nextDouble();
-        System.out.println("Enter Third Number: ");
+        System.out.print("Enter Third Number: ");
         double z =sc.nextDouble();
         double sum=x+y+z;
         System.out.println("The SUM of Three Number is = "+sum);
