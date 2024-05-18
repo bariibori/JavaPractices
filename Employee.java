@@ -52,7 +52,7 @@ public class Employee {
     public static void main(String[] args) {
         Employee e = new Employee(); // default constructor
         e.company = "JU";
-        e.name = "Bomna";
+        e.name = "Bona";
         e.id = "0098";
         e.salary = 2000;
         e.display();
