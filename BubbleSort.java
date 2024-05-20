@@ -19,7 +19,7 @@ class BubbleSort
     public static void main(String args[])
     {
         BubbleSort ob = new BubbleSort();
-        int nums[] = {7, -5, 3, 2, 1, 0, 45};
+        int nums[] = {7, -5, 3, 2, 1, 1, 45};
         System.out.println("Original Array:");
         System.out.println(Arrays.toString(nums));
         ob.bubbleSort(nums);
