@@ -10,7 +10,7 @@ class Cylinder extends Circle{
     double height;
      Cylinder(double rad, double hei){
         //constructor for Cylinder
-        radius = rad;
+       super (rad);
         height = hei;}
         void displayAreaOfCylinder(){
             System.out.println("Area of the cylinder is:" + (Math.PI * radius * radius * height));}}
